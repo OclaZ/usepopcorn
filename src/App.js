@@ -58,6 +58,16 @@ export default function App() {
     </>
   );
 }
+
+function NavBar() {
+  return (
+    <nav className="nav-bar">
+      <Logo />
+      <Search />
+      <NumResults />
+    </nav>
+  );
+}
 function Search() {
   const [query, setQuery] = useState("");
   return (
@@ -83,15 +93,6 @@ function NumResults() {
     <p className="num-results">
       Found <strong>X</strong> results
     </p>
-  );
-}
-function NavBar() {
-  return (
-    <nav className="nav-bar">
-      <Logo />
-      <Search />
-      <NumResults />
-    </nav>
   );
 }
 
