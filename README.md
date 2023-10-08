@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # usePopcorn - Your Personal Movie Watched List
 
 ![usePopcorn Logo](src/usepopcorn-logo.png)
@@ -58,5 +60,7 @@ Special thanks to TheMovieDB API for providing the movie data.
 ## Contact
 
 For any questions or feedback, feel free to reach out at aslikhhamza2001@gmail.com.
+
+=======
 
 Happy movie watching! 🍿🎬
