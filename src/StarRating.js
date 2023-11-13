@@ -10,13 +10,19 @@ const starContainerStyle = {
 };
 StarRating.prototype={
 
-  maxRating:PropTypes.number
-
+  maxRating:PropTypes.number,
+  defaulRating:PropTypes.number,
+  color:PropTypes.string,
+  size:PropTypes.number,
+  messages:PropTypes.array,
+  classname:PropTypes.string,
+  onSetRating:PropTypes.func, 
 }
 export default function StarRating({
   maxRating = 5,
   color = "#fcc419",
   size = 48,
+  classname="",
   messages = [],
   defaulRating = 0,
   onSetRating,
